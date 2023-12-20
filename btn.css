@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.container {
+  display: flex;
+  background-color:green;
+  height: 1000px;
+}
+
+.center {
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  
+}
+
+.btn {
+  width: 300px;
+  height: 100px;
+  background-color: red;
+  border-radius: 15px;
+  margin-top: 20px;
+  transition: transform 0.2s linear 0s;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: translateY(-15px);
+}
+
+.blue {
+  background-color: blue;
+}
+
+.pink {
+  background-color: pink;}
