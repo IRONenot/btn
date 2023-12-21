@@ -1,44 +1,75 @@
-body {
+* {
   margin: 0;
-}
-
-div {
-  display: flex;
-  justify-content: center;
-  margin: 50px;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
-  display: flex;
-  background-color:green;
-  height: 1000px;
+ 
+  height: 80vh;
+  display: grid;
+  place-items: center;
+  margin: 100px;
+  background-color: bisque;
+
 }
 
-.center {
+.row {
   margin: 0 auto;
-  display: block;
-  position: relative;
-  
+  display: flex;
+
 }
 
 .btn {
   width: 300px;
   height: 100px;
-  background-color: red;
   border-radius: 15px;
-  margin-top: 20px;
   transition: transform 0.2s linear 0s;
-  display: inline-block;
   cursor: pointer;
+ 
 }
 
-.btn:hover {
-  transform: translateY(-15px);
+
+
+.red {
+  background-color: red;
+  margin-right: 100px;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+  margin-left: 100px;
+}
+
+.green {
+  background-color: green;
+  margin-right: 100px;
+}
+
+.skyblue {
+  background-color: skyblue;
 }
 
 .blue {
   background-color: blue;
+  margin-left: 100px;
 }
 
-.pink {
-  background-color: pink;}
+.violet {
+  background-color: violet;
+  margin-right: 100px;
+}
+
+.black {
+  background-color: black;
+}
+
+.brown {
+  background-color: brown;
+  margin-left: 100px;
+}
+
