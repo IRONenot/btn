@@ -4,20 +4,23 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
 .container {
- 
+  width: 1440px;
   height: 80vh;
   display: grid;
   place-items: center;
   margin: 100px;
   background-color: bisque;
-
 }
 
 .row {
   margin: 0 auto;
   display: flex;
-
 }
 
 .btn {
@@ -26,10 +29,7 @@
   border-radius: 15px;
   transition: transform 0.2s linear 0s;
   cursor: pointer;
- 
 }
-
-
 
 .red {
   background-color: red;
@@ -73,3 +73,16 @@
   margin-left: 100px;
 }
 
+@media (max-width: 1140px) {
+  .btn {
+    width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn {
+    width: 100px;
+    height: 50px;
+  }
+  
+}

@@ -11,6 +11,8 @@ btn_1.addEventListener("click", function onClick() {
   btn_1.style.backgroundColor = curColor_1;
 });
 
+//============================
+
 const btn_2 = document.getElementById("btn_2");
 
 let curColor_2 = "orange";
@@ -23,6 +25,8 @@ btn_2.addEventListener("click", function onClick() {
   }
   btn_2.style.backgroundColor = curColor_2;
 });
+
+//============================
 
 const btn_3 = document.getElementById("btn_3");
 
@@ -37,6 +41,8 @@ btn_3.addEventListener("click", function onClick() {
   btn_3.style.backgroundColor = curColor_3;
 });
 
+//============================
+
 const btn_4 = document.getElementById("btn_4");
 
 let curColor_4 = "green";
@@ -49,6 +55,8 @@ btn_4.addEventListener("click", function onClick() {
   }
   btn_4.style.backgroundColor = curColor_4;
 });
+
+//============================
 
 const btn_5 = document.getElementById("btn_5");
 
@@ -63,6 +71,8 @@ btn_5.addEventListener("click", function onClick() {
   btn_5.style.backgroundColor = curColor_5;
 });
 
+//============================
+
 const btn_6 = document.getElementById("btn_6");
 
 let curColor_6 = "blue";
@@ -75,6 +85,8 @@ btn_6.addEventListener("click", function onClick() {
   }
   btn_6.style.backgroundColor = curColor_6;
 });
+
+//============================
 
 const btn_7 = document.getElementById("btn_7");
 
@@ -89,6 +101,8 @@ btn_7.addEventListener("click", function onClick() {
   btn_7.style.backgroundColor = curColor_7;
 });
 
+//============================
+
 const btn_8 = document.getElementById("btn_8");
 
 let curColor_8 = "black";
@@ -101,6 +115,8 @@ btn_8.addEventListener("click", function onClick() {
   }
   btn_8.style.backgroundColor = curColor_8;
 });
+
+//============================
 
 const btn_9 = document.getElementById("btn_9");
 
